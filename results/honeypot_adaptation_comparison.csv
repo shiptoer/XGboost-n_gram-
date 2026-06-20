@@ -1,3 +1,3 @@
 Stage,Test_Set,Detected_Attacks,Total_Attacks,Detection_Rate,Accuracy,Precision,Recall,F1_score,Average_Prediction_Latency_ms
-Before Honeypot Update,Honeypot SQL Injection Payloads,11,20,0.55,0.55,1.0,0.55,0.7096774193548387,0.1604649999535468
-After Honeypot Update,Honeypot SQL Injection Payloads,19,20,0.95,0.95,1.0,0.95,0.9743589743589743,0.11709500004144502
+Before Honeypot Update,Honeypot SQL Injection Payloads,11,20,0.55,0.55,1.0,0.55,0.7096774193548387,0.08512500000961154
+After Honeypot Update,Honeypot SQL Injection Payloads,19,20,0.95,0.95,1.0,0.95,0.9743589743589743,0.18496000000141066
