@@ -1,0 +1,2 @@
+Model,Feature_Method,Accuracy,Precision,Recall,F1_score,Training_Time_Seconds,Average_Prediction_Latency_ms
+XGBoost,Character-level n-gram,0.9940139136062126,0.9977767896843042,0.9859402460456942,0.9918232044198895,66.34928039999977,0.008801051609643137

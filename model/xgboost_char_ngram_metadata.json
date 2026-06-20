@@ -1,0 +1,58 @@
+{
+  "artifacts": {
+    "model_path": "C:\\Users\\huynh\\Desktop\\Phase1_DBS401_IA1907_Group2\\sqli-xgboost-honeypot\\model\\xgboost_char_ngram_model.pkl",
+    "results_path": "C:\\Users\\huynh\\Desktop\\Phase1_DBS401_IA1907_Group2\\sqli-xgboost-honeypot\\results\\xgboost_char_ngram_results.csv",
+    "vectorizer_path": "C:\\Users\\huynh\\Desktop\\Phase1_DBS401_IA1907_Group2\\sqli-xgboost-honeypot\\model\\char_ngram_vectorizer.pkl"
+  },
+  "dataset": {
+    "clean_rows": 30919,
+    "dedupe_query": true,
+    "duplicate_rows_removed": 14,
+    "final_rows": 30905,
+    "path": "C:\\Users\\huynh\\Desktop\\Phase1_DBS401_IA1907_Group2\\sqli-xgboost-honeypot\\dataset\\Modified_SQL_Dataset.csv",
+    "raw_rows": 30919,
+    "sha256": "60af1d160dcc5c3f61440dc8f0c019e8898243951e283402857c10294c6f5cc5"
+  },
+  "feature_method": "Character-level n-gram",
+  "metrics": {
+    "accuracy": 0.9940139136062126,
+    "average_prediction_latency_ms": 0.008801051609643137,
+    "f1_score": 0.9918232044198895,
+    "precision": 0.9977767896843042,
+    "recall": 0.9859402460456942,
+    "training_time_seconds": 66.34928039999977
+  },
+  "model": "XGBoost",
+  "model_params": {
+    "colsample_bytree": 0.8,
+    "eval_metric": "logloss",
+    "learning_rate": 0.1,
+    "max_depth": 6,
+    "n_estimators": 200,
+    "random_state": 42,
+    "subsample": 0.8
+  },
+  "package_versions": {
+    "joblib": "1.5.3",
+    "pandas": "3.0.3",
+    "scikit-learn": "1.8.0",
+    "xgboost": "3.3.0"
+  },
+  "split": {
+    "random_state": 42,
+    "stratify": true,
+    "test_rows": 6181,
+    "test_size": 0.2,
+    "train_rows": 24724
+  },
+  "vectorizer": {
+    "analyzer": "char",
+    "class": "TfidfVectorizer",
+    "lowercase": true,
+    "max_features": 5000,
+    "ngram_range": [
+      3,
+      5
+    ]
+  }
+}

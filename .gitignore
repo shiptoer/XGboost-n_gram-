@@ -1,0 +1,35 @@
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local IDE/editor metadata
+.vscode/
+.idea/
+
+# Codex/local agent metadata
+.agents/
+.codex/
+
+# Runtime logs and locks
+*.log
+*.lock
+results/honeypot_logs.csv
+results/honeypot_logs_*.csv
+
+# Third-party payload corpora kept locally, not required to run the project
+dataset/PayloadsAllTheThings-master/
+dataset/external_payloads/
+dataset/csic_database.csv/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
