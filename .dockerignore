@@ -1,0 +1,15 @@
+.git/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.agents/
+.codex/
+results/
+dataset/PayloadsAllTheThings-master/
+dataset/external_payloads/
+dataset/csic_database.csv/

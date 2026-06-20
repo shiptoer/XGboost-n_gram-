@@ -17,7 +17,6 @@ MODULES = [
     "test_model_smoke",
     "test_api_latency",
     "test_honeypot_payloads",
-    "apply_fixes",
 ]
 
 
