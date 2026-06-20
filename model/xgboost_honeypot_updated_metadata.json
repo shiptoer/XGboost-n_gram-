@@ -4,11 +4,11 @@
     "F1_score": 0.9743589743589743,
     "Precision": 1.0,
     "Recall": 0.95,
-    "average_prediction_latency_ms": 0.11709500004144502,
+    "average_prediction_latency_ms": 0.18496000000141066,
     "detected_attacks": 19,
     "detection_rate": 0.95,
     "total_attacks": 20,
-    "training_time_seconds": 81.22923959999935
+    "training_time_seconds": 70.8376360000002
   },
   "artifacts": {
     "model_path": "C:\\Users\\huynh\\Desktop\\Phase1_DBS401_IA1907_Group2\\sqli-xgboost-honeypot\\model\\xgboost_honeypot_updated_model.pkl",
@@ -20,7 +20,7 @@
     "F1_score": 0.7096774193548387,
     "Precision": 1.0,
     "Recall": 0.55,
-    "average_prediction_latency_ms": 0.1604649999535468,
+    "average_prediction_latency_ms": 0.08512500000961154,
     "detected_attacks": 11,
     "detection_rate": 0.55,
     "total_attacks": 20
